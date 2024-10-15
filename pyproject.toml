@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "class1"
+version = "0.1.0"
+description = ""
+authors = ["Abdulqadir000 <aabdulqadir300@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+pytest = "^8.3.2"
+streamlit = "^1.39.0"
+langchain-community = "^0.3.2"
+langchain-google-genai = "^2.0.1"
+langchain-chroma = "^0.1.4"
+protobuf = "3.20.x"
+pypdf = "^5.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
